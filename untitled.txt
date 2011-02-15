@@ -1,0 +1,18 @@
+A faire pour le projet de Conception Objet :
+Analyse des besoins : Cahier des charges
+Analyse du domaine : Diagramme de classes
+Conception => Spécifications techniques
+Développement => Code
+Tests
+Déploiement
+
+Distribuer les rôles entre nous :
+- Chef de projet
+- Responsable de conception
+- Responsable de développement / BD
+- Responsable documentation + Tests
+
+Lisibilité du code !!!
+
+Donner les diagrammes à Tibi : classe, Use Case, ...
+
