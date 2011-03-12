@@ -1,0 +1,25 @@
+Pour le 9 mars : 
+x Conception + implémentation d'une fonctionnalité. Exemple : étudaints qui ont plus de 12 au semestre
+x User Interface : Façade + Business Layer + Persistance Layer + BD + .Txt
+x - Diagramme de classe
+  - Diagramme de séquence
+  - Diagramme d'activité
+  - etc.
+==> Uniquement pour la fonctionnalité qu'on va mettre en place
+
+x Code Java + tests
+x BD / Fichier txt
+x GUI / Console
+
+
+==> Architecture en 3 couches : 
+UI, BL, Persistance
+
+
+Pattern : 
+- Pattern façade pour séparer UI et BL
+- Pattern Fabrique pour séparer BL et persistance
+
+Problème : Connexion à la BD, utilisation d'un connector via une classe de connexion.
+=> Créer une connexion puis créer une requête.
+
