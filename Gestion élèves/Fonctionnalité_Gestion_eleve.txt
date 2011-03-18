@@ -1,0 +1,64 @@
+Fonctionnalités Gestion des élèves :
+
+
+**JFrame_eleve :
+- Get_All_eleve()
+-
+-
+
+
+**Facade_eleve :
+- Init_Gestion_eleve()
+- Get_All_eleve()
+- Ajout_Eleve()
+- Modifier_Eleve(String code)
+- Supprimer_Eleve(String code)
+
+
+**Gestion_eleve :
+- Ajout_Eleve()
+- Modifier_Eleve(String code)
+- Supprimer_Eleve(String code)
+- Get_all_eleve(String code_Etape) // Va chercher les élèves d'une Etape
+- Get_all_eleve()// va chercher tous les élèves 
+
+
+**Abstract_Factory :
+- Get_Etudiant()
+- Get_Etudiant(String code);
+-
+
+
+**Abstract_eleve :
+-
+-
+-Abstract Save(); //Méthode à réécrire dans les classes concrètes
+
+
+** FactoryTXT :
+-
+- Get_eleve_TXT(String code); // va chercher dans le fichier texte l'élève dont le code correspond au paramètre
+- Get_eleve_TXT(); // Crée un élève "vierge"
+
+
+** FactoryBDD :
+-
+- Get_eleve_BDD(String code); // va chercher dans la BDD l'éléve dont le code correspond au paramètre
+- Get_eleve_BDD(); // Crée un élève "vierge"
+
+
+
+
+**Eleve_TXT :
+-
+-
+- Save();
+
+
+
+**Eleve_BDD :
+-
+-
+- Save();//
+
+
